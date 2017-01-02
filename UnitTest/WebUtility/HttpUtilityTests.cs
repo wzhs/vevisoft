@@ -15,7 +15,7 @@ namespace vevisoft.WebUtility.Tests
         {
             HttpParam hp = new HttpParam("http://www.baidu.com");
             string str = HttpUtility.GetHtmlStringFromUrlByGet(hp);            
-            Assert.IsTrue(str.Length > 0);
+            Assert.IsTrue(str.Contains("百度"));
             //Assert.Fail();
         }
     }

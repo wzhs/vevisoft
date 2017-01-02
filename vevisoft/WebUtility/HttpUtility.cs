@@ -78,10 +78,7 @@ namespace vevisoft.WebUtility
                 return ("Response File" + response.Headers.Get("Content-Disposition"));
             }
 
-            Encoding coding =
-                //    Encoding.Default;
-                //if (response.ContentType.ToLower().Contains("utf-8"))
-                coding = Encoding.UTF8;
+            Encoding coding = coding = Encoding.UTF8;
             //else 
             if (response.ContentType.ToLower().Contains("gb2312"))
                 coding = Encoding.Default;
