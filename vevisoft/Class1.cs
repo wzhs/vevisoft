@@ -5,6 +5,7 @@ using System.Text;
 
 namespace vevisoft
 {
+    //
     public class Class1
     {
     }
