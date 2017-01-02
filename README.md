@@ -1,6 +1,8 @@
 # vevisoft
-self use .net libs
+Self use .Net libs
 
-i want to create a c# web spider.
+I want to create a c# web spider.
 
-this is the step one which is http request response helper.
+This project is based on .Net FrameWork4.0.
+
+This is the step one which is http request response helper.
